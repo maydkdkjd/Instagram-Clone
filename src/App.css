@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.data::after{
+  content: '';
+  position: absolute;
+  border-top: 2px;
+  border: 2px solid black;
+  top: 0;
+  right: 0;
+  width: 100%;
+  
+  
+}
